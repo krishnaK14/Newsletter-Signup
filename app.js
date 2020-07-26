@@ -59,7 +59,7 @@ app.post("/failure", (req, res) => {
 });
 
 app.listen(process.env.PORT || port, () => {
-  console.log(`Server is running on port ${PORT}....`);
+  console.log(`Server is running on port ${port}....`);
 });
 
 //API key
